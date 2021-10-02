@@ -24,6 +24,9 @@
     <ClInclude Include="ConsoleInput.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ExtendedWorkTicket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -33,6 +36,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="WorkTicket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtendedWorkTicket.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
