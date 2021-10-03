@@ -1,4 +1,15 @@
-
+/*
+*	Author: Gaelen Rhoads
+*	Student ID: 100804776
+*
+*	Author: Nimsith Fernandopulle
+*	Student ID: 100806868
+*
+*	Date: October 3, 2021
+*	Project: Lab 3 - Inheritance
+*	File Name: ExtendedWorkTicket.cpp
+*
+*/
 
 #include <iostream>
 
@@ -7,7 +18,6 @@
 
 int main()
 {
-	/* FIX THIS BY IMPLEMENTING A WORKING ExtendedWOrkTicket Class*/
 	ExtendedWorkTicket testTicket1;
 	ExtendedWorkTicket testTicket2(1, "AMCE_123", 1, 7, 2014, "Password Reset", true);
 
@@ -33,7 +43,3 @@ int main()
 	std::cout << std::endl << std::endl;
 	return 0;
 }
-
-
-
-

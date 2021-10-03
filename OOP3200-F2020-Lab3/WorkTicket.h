@@ -1,6 +1,6 @@
-/** MyLabC3WorkTicket.h
+/** WorkTicket.h
  *
- *	A solution to C++ Labs 1 and 2 using the MyDate class. Use this header for C++ Lab 3.
+ *	A solution to C++ Labs 1 and 2 using the MyDate class.
  *
  *	@author		Thom MacDonald
  *	@author     Tom Tsiliopoulos

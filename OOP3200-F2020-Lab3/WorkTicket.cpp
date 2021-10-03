@@ -1,3 +1,12 @@
+/** WorkTicket.cpp
+ *
+ *	@author		Thom MacDonald
+ *	@author     Tom Tsiliopoulos
+ *	@version	2020.09
+ *	@since		Jul 2018
+ *	@see		Bronson, G. (2012). A First Book of C++ (4th ed.). Boston, MA: Course Technology.
+ *	@see		MyDate.h
+*/
 
 #include "WorkTicket.h"
 #include "MyDate.h"
