@@ -15,7 +15,6 @@
 
 #include "ExtendedWorkTicket.h"
 
-
 int main()
 {
 	ExtendedWorkTicket testTicket1;

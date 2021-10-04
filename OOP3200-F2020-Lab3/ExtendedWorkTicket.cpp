@@ -89,7 +89,7 @@ std::ostream& operator<<(std::ostream& out, const ExtendedWorkTicket& extendedWo
 	}
 
 	// This code will show true/false instead of 1/0
-	//out << WorkTicket(extendedWorkTicket) << "Ticket:        " << std::boolalpha << extendedWorkTicket.IsOpen();
+	//out << WorkTicket(extendedWorkTicket) << "Ticket:" << std::boolalpha << extendedWorkTicket.IsOpen();
 
 	return out;
 }

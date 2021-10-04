@@ -8,7 +8,9 @@
 *	Date: October 3, 2021
 *	Project: Lab 3 - Inheritance
 *	File Name: ExtendedWorkTicket.cpp
-*
+*	Description: This lab goes over the concept of inheritance. This class adds a boolen isOpen to the base class
+*	so that we can tell a user if a work ticket is open or closed. We also overload and override some functions
+*	of the base class to increase the functionality. 
 */
 
 #pragma once
@@ -22,7 +24,7 @@ class ExtendedWorkTicket : public WorkTicket
 public:
 
 /// <summary>
-/// Default Constructor for derived constructor
+/// Default Constructor for derived constructor, this calls the base classes default constructor by default
 /// </summary>
 ExtendedWorkTicket(): m_isOpen(true) { }
 
