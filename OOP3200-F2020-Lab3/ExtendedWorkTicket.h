@@ -21,15 +21,24 @@ class ExtendedWorkTicket : public WorkTicket
 {
 public:
 
-// When derived class's default constructor is called, the base class's default constructor is automatically called
-ExtendedWorkTicket(): m_isOpen(true)
-{
+/// <summary>
+/// Default Constructor for derived constructor
+/// </summary>
+ExtendedWorkTicket(): m_isOpen(true) { }
 
-}
-
-
+/// <summary>
+/// Parameterized Constructor
+/// </summary>
+/// <param name="ticket_number"></param>
+/// <param name="client_id"></param>
+/// <param name="day"></param>
+/// <param name="month"></param>
+/// <param name="year"></param>
+/// <param name="description"></param>
+/// <param name="isOpen"></param>
 ExtendedWorkTicket(int ticket_number, const string& client_id, int day, int month, int year, const string& description, bool isOpen);
 
+// Deconstructor
 ~ExtendedWorkTicket();
 
 /// <summary>
